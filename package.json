@@ -1,0 +1,21 @@
+{
+  "name": "x_proposer",
+  "license": "MIT",
+  "version": "1.0.0",
+  "author": "Danny Thomx",
+  "scripts": {
+    "build": "hardhat compile",
+    "start": "hardhat run scripts/index.js"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "ethers": "^5.1.2",
+    "hardhat": "^2.2.0"
+  },
+  "dependencies": {
+    "@arbitrum/nitro-contracts": "v1.0.2",
+    "@arbitrum/sdk": "^v3.1.9",
+    "arb-shared-dependencies": "^1.0.0",
+    "dotenv": "^8.2.0"
+  }
+}
