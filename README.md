@@ -13,8 +13,6 @@ See [index.js](./scripts/index.js) for inline explanation.
 ### Run Script:
 
 ```
-cd xchain_transfer
-
 yarn install
 
 yarn start
